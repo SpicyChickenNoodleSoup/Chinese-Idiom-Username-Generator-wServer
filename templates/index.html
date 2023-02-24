@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用本名取好听独特的微信 游戏账号名</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/script.js" type="module"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>用本名取好听独特的微信 游戏账号名</h1>
+    </header>
+    
+    <main>
+        <section class="sectionName">
+            <!--h2 id="formHeading" class="offscreen">Enter Your First Name</h2>-->
+            <form id="submitForm" class="submitSection__form">
+                <input 
+                    type="text" 
+                    id="submitSection__textInput" 
+                    class="submitSection__textInput" 
+                    required 
+                    maxlength="2" 
+                    placeholder="请输入名字"
+                    aria-labelledby="formHeading">
+                <button class="submitSection__button" aria-label="Submit">
+                    <i class="fas fa-check"></i>
+                </button>
+            </form>
+        </section>
+
+        <section id="suggestionSection" class="suggestionSection hidden">
+            <h2>好听的账号名推荐:</h2>
+            <ol id="suggestionList"></ol>
+            <p>请点击喜欢的账号名了解背后含义。</p>
+        </section>
+    </main>
+</body>
+</html>
