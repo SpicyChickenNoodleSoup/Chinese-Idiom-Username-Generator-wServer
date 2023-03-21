@@ -9,3 +9,6 @@ Links to other chinese words, phrases, idioms, and poems datasets for easy refer
 - https://github.com/pwxcoo/chinese-xinhua
 - https://github.com/mapull/chinese-dictionary
 - https://github.com/chujiezheng/ChID-Dataset
+
+and a repository I found interesting:
+- https://github.com/holynova/gushi_namer
